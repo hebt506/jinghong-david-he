@@ -1,7 +1,6 @@
 body {
     font-family: 'Open Sans', sans-serif;
 }
-
 .container{
     max-width:1024px;
     width:100%;
@@ -21,7 +20,6 @@ a{
     /* background-color: #B3E5FC; */
     transition: background-color 0.2s;
 }
-
 a:hover{
     text-decoration: none;
     background-color: #B3E5FC;
@@ -37,16 +35,12 @@ nav ul{
     top:0;
     left:0;
     width:100%;
+    /* height:2rem;  */
     background-color: white;    
 }
-
 li a {
     margin-right:1.5rem;
     text-decoration: none;
-}
-
-.center{
-    justify-content: center;
 }
 
 footer{
@@ -60,14 +54,11 @@ section .title{
     font-size: 2rem;
     text-align: center;
 }
-
 section{
     margin: 1rem 0 1rem 0;
 }
-
 .row{
     display: flex;
-    flex-direction: column;
     flex-wrap: wrap;
 }
 
@@ -144,9 +135,7 @@ section{
 
 [class*="col-"] {
     flex-basis: 100%;
-
 }
-
 #news [class*="col-"] {
     margin-top: 5px;
 }
@@ -165,15 +154,9 @@ section{
     .col-11 {flex-basis: 91.66%;}
     .col-12 {flex-basis: 100%;}
     
-#news .col-4 {
+
+    #news .col-4 {
         text-align: right;
-}
-
-.row {
-    flex-direction: row;
-}
+    }
 
 }
-
-
-
